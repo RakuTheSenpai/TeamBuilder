@@ -3,7 +3,7 @@ from discord.ext import commands
 import numpy as np
 import random
 
-TOKEN ='NzIzNjA1NDA1NTc3NjQyMDI0.Xu0Kwg.m5qQTf_M_9p6QwXIyfmM8lHWRV4'
+TOKEN ='YOUR TOKEN GOES HERE'
 
 client = commands.Bot(command_prefix='!')
 playerPool = []
