@@ -1,6 +1,7 @@
 import discord
 from discord.ext import commands
 import numpy as np
+import random
 
 TOKEN ='YOUR TOKEN GOES HERE'
 
@@ -8,6 +9,7 @@ client = commands.Bot(command_prefix='!')
 playerPool = []
 
 def chunkify(players, numberOfTeams:int):
+    random.shuffle(playerPool)
     teams = np.array_split(playerPool,numberOfTeams)
     return teams
     
