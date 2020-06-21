@@ -1,5 +1,5 @@
 # TeamBuilder
-Python Bot to create teams to custom games.
+Python Bot to create teams for custom games.
 
 ## Instalation
 Since the bot is not currently hosted anywhere, just clone the repository and run:
